@@ -15,7 +15,7 @@ export const defaultShouldTruncate = (currentList, tripCount) => {
 }
 export default ({
   storage,
-  performFilterCheck = defaultPerformFilterCheck,
+  performFilterCheck = defaultPerformFilterCheck
 }) => async ({
   bucket,
   prefix,
@@ -23,7 +23,7 @@ export default ({
 }) => {
   const list = []
   console.time('duration:all')
-  let continuationToken  = null
+  let continuationToken = null
   do {
     console.log(' - - - ')
     const input = omitBy(isNilOrEmpty, {

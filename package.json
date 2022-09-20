@@ -5,10 +5,6 @@
   "main": "src/index.js",
   "module": "src/index.js",
   "author": "Rubin Apore",
-  "engines": {
-    "npm": "7",
-    "node": "16"
-  },
   "license": "MIT",
   "scripts": {
     "lint": "standard",
