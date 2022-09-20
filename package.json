@@ -1,6 +1,6 @@
 {
   "name": "@dapore/files",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Optimize the retrieval of files from a file storage system like S3",
   "main": "src/index.js",
   "module": "src/index.js",
